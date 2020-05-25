@@ -1,0 +1,58 @@
+.text-1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2vw;
+    background-color: rgb(196, 195, 195);
+    border-radius: 25px;
+}
+
+.img-pr {
+    border-radius: 25px;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+.titlu {
+    font-size: 6vw;
+    font-family: "Times New Roman", Times, serif;
+    background-color: rgb(196, 195, 195);
+    border-radius: 25px;
+    color: white;
+
+}
+
+* {box-sizing: border-box}
+body {font-family: Arial, Helvetica, sans-serif;}
+
+.navbar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+  border-radius: 25px;
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  width: 25%; /* Four links of equal widths */
+  text-align: center;
+}
+
+.navbar a:hover {
+  background-color: #000;
+  border-radius: 25px;
+}
+
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+}
