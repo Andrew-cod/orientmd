@@ -8,7 +8,7 @@
   
     <body topmargin="2%" leftmargin="2%" rightmargin="2%" >
         <div class="navbar">
-            <a href="#2">Performanta echipamentelor</a> 
+            <a href="#2">OrientMd</a> 
             <a href="#3">Pachetul de baza</a> 
             <a href="#4">Pachetul opțional</a> 
             <a href="#5">Contacte</a>
@@ -54,11 +54,11 @@
         <br>
         <img src="sp3.jpg" width="100%" class="img-pr"  >
         <br><br>
-
+        <a name="4"></a>
         <div class="text-1" >
             <br>
             <center>
-                <a name="4"></a>
+                
                 <h2>PACHETUL OPȚIONAL</h2><br>
 
                 Program super spuma<br><br>
@@ -86,6 +86,41 @@
         </center>
         <br>
         </div>
+
+
+
+
+
+
+
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
     </body>
+
+
+    <script>
+        //Get the button
+        var mybutton = document.getElementById("myBtn");
+        
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+        
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+        </script>
+
+
+
+
 
 </html>
