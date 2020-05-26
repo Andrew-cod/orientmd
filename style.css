@@ -9,16 +9,17 @@
   font-size: 18px;
   border: none;
   outline: none;
-  background-color: grey;
+  background-color: rgb(129, 37, 37);
   color: white;
   cursor: pointer;
   padding: 1%;
-  border-radius: 60%;
-  transition: background-color 0.5s;
+  border-radius: 40%;
+  transition: background-color 0.5s , border-radius 0.5s;
 }
 
 #myBtn:hover {
   background-color: #555;
+  border-radius: 20%;
 }
 
 .text-1{
